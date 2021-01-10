@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(174, 218, 219);
+}
+.top-head h1{
+    width: 100%;
+    height: 150px;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: bold;
+    justify-content: center;
+    color: rgb(9, 241, 230);
+    text-align: center;
+    background-color: rgb(63, 63, 129);
+
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: 0% auto;
+    padding: 10px;
+  
+}
+.player img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.photo img{
+    width: 250px;
+    margin-right: 20px;
+    margin-top: 20px;
+   
+}
+.logo img{
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.photos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.full{
+    font-size: 20px;
+    color: rgb(255, 0, 34);
+}
+.unfull{
+    font-size: 20px;
+    color: rgba(63, 59, 60, 0.959);
+}
+.rating{
+    display:flex;
+  
+  
+}
+.time-t{
+    margin-left: 10px;
+}
+.timer{
+    display:flex;
+    margin-left: 30px;
+    align-items: center;
+   padding-right: 10px;
+   justify-content: center;
+    
+  
+}
+.top-player{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  
+}
+.top-blogs{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.latest{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px 0px;
+  
+}
+.players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(12, 72, 238);
+    text-transform: capitalize;
+}
+.section-header{
+   background-color: white;
+ 
+    margin: 10px 20px 20px 20px;
+    border-radius: 10px;
+}
+.line{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: bold;
+}
+@media(max-width:668px)
+{
+    .top-player{
+      
+        grid-template-columns: auto auto;
+       
+    }
+    .top-blogs{
+       
+        grid-template-columns: auto;
+     
+    }
+    .top-head h1{
+      
+        font-size: 20px;
+        font-weight: normal;
+        align-items: center;
+       padding: 12% 0 0 0;
+       
+
+     
+    }
+}
+
+@media(max-width:508px)
+{
+    .top-player{
+      
+        grid-template-columns:  auto;
+       
+    }
+    .photos{
+        display:block;
+        
+    
+    }
+}
