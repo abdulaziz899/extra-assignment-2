@@ -137,6 +137,12 @@ h3{
 
      
     }
+    .latest{
+      
+        grid-template-columns: auto auto;
+       
+      
+    }
 }
 
 @media(max-width:508px)
@@ -150,5 +156,11 @@ h3{
         display:block;
         
     
+    }
+    .latest{
+      
+        grid-template-columns: auto;
+       
+      
     }
 }
